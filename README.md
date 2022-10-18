@@ -35,5 +35,5 @@ I'm learning about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz).
 - Finder Show Path Bar (skipped, since I've already done this)
 - .zshrc
 - Git (config and SSH)
-- Homerew Install
+- Homebrew Install
 
