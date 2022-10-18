@@ -5,3 +5,5 @@
 	email = 58311569+danielmmckeown@users.noreply.github.com
 [core]
 	editor = nvim
+[pull]
+	ff = only
