@@ -5,16 +5,18 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc:
-    ~/.gitconfig:
-    ~/.vimrc:
+    ~/.bashrc: 
+    ~/.bash_profile: 
+    ~/.zshrc: 
+    ~/.gitconfig: 
+    ~/.vimrc: 
+    ~/.config/nvim:
 
 # - create:
 
 - shell:
 #  - [git submodule update --init --recursive, Installing submodules]
   - echo "hey you guys"
-  - sleep 2
   -
     command: ./setup.homebrew.zsh
     stdout: true
