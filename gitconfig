@@ -1,9 +1,15 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-	name = Daniel McKeown
+	name = Dan McKeown
 	email = 58311569+danielmmckeown@users.noreply.github.com
 [core]
 	editor = nvim
+	exlcudesfile = /Users/danielmckeown/.gitignore
 [pull]
 	ff = only
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

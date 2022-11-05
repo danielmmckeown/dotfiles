@@ -9,6 +9,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # Create Aliases
 alias ls='ls -lAFH'
 alias vim='nvim'
+
 # Customize Prompt(s)
 PROMPT='
 [%1~ %L]%# '
